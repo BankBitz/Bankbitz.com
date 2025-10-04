@@ -1,0 +1,36 @@
+html, body, #root {
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle at center, #111, #000);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  overflow: hidden; /* verhindert Scrollbalken */
+}
+.home h1{
+    font-size: 3 rem;
+    color: #00ff44
+}
+
+.games-link {
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: 0.3s;
+  
+}
