@@ -1,13 +1,27 @@
+
+html, body, #root {
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+
+
 .home {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
   background: radial-gradient(circle at center, #111, #000);
   color: white;
   font-family: "Segoe UI", sans-serif;
   text-align: center;
+  overflow: hidden; /* verhindert Scrollbalken */
 }
 
 .home h1 {
@@ -19,6 +33,23 @@
 .home p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+}
+
+.home os {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #00ffd5;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.home os2 {
+  font-size: 1,5 rem;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  color: #ff00b3;
 }
 
 .buttons button {
