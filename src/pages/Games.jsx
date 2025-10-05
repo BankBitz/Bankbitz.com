@@ -10,6 +10,9 @@ export default function Games() {
       <Link to="/">
       <button>⬅️ Zurück zur Startseite</button>
       </Link>
+      <Link to ="/Coinflip">
+      <button> 🪙 Münzwurf-Spiel</button>
+      </Link>
     </main>
   );
 }

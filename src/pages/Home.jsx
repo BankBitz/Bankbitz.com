@@ -8,10 +8,10 @@ export default function Home() {
       <h1>BANKBITZ.COM</h1>
       <p>Willkommen auf meiner ersten Website!</p>
       <Link to="/games">
-        <button className ="games-link">🎮 Spiele starten</button>
+        <button className ="link">🎮 Spiele starten</button>
       </Link>
       <Link to="/OberstSnuggles">
-        <button className ="games-link">Oberstsnuggles</button>
+        <button className ="link">Oberstsnuggles</button>
       </Link>
     </main>
   );

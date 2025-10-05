@@ -1,6 +1,6 @@
 import "./OberstSnuggles.css";
-import heheheha from "../assets/heheheha.jpg"
-import heheheha2 from "../assets/heheheha2.jpeg"
+import heheheha from "../assets/oberst/heheheha.jpg"
+import heheheha2 from "../assets/oberst/heheheha2.jpeg"
 import { Link } from "react-router-dom";
 
 export default function OS(){
@@ -22,7 +22,7 @@ export default function OS(){
         <img src ={heheheha2} width={200} className="hehehehawide"/>
         
       <Link to="/">
-        <button>⬅️ Zurck zur Startseite</button>
+        <button>⬅️ Zurück zur Startseite</button>
       </Link>
 
     </main>
