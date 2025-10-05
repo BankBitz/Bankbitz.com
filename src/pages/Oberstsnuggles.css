@@ -1,0 +1,48 @@
+html, body, #root {
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.OS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle at center, #111, #000);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  overflow: hidden; /* verhindert Scrollbalken */
+}
+
+.OS h1{
+    color: #b30000;
+    font-size: 3rem;
+}
+
+.OS p{
+    color:aquamarine;
+}
+
+.heheheha  {
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+  transition: transform 0.3s ease;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+.hehehehawide {
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+  transition: transform 0.3s ease;
+  position: absolute;
+  bottom: 200px;
+  right:200px;
+}

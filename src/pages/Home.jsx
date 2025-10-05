@@ -10,6 +10,9 @@ export default function Home() {
       <Link to="/games">
         <button className ="games-link">🎮 Spiele starten</button>
       </Link>
+      <Link to="/OberstSnuggles">
+        <button className ="games-link">Oberstsnuggles</button>
+      </Link>
     </main>
   );
 }
