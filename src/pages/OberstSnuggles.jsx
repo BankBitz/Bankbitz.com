@@ -1,5 +1,4 @@
 import "./OberstSnuggles.css";
-import Snuggles from "../assets/Snugglesloost.mov"
 import heheheha from "../assets/heheheha.jpg"
 import heheheha2 from "../assets/heheheha2.jpeg"
 import { Link } from "react-router-dom";
@@ -12,7 +11,7 @@ export default function OS(){
         <p> warum ist er so schlecht in CR? </p>
 
         <video
-        src={Snuggles} height={380} width={220}
+        src="/videos/snuggles.mp4" height={380} width={220}
         controls
         autoPlay
         muted
