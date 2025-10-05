@@ -1,5 +1,5 @@
 import "./OberstSnuggles.css";
-import Snuggles from "../assets/Snugglesloost.mp4";
+import Snuggles from "../assets/Snugglesloost.mov"
 import heheheha from "../assets/heheheha.jpg"
 import heheheha2 from "../assets/heheheha2.jpeg"
 import { Link } from "react-router-dom";
