@@ -8,10 +8,10 @@ export default function Games() {
       <h1>🎮 Game Page </h1>
       <p>Hier kommt bald mehr Unc!</p>
       <Link to="/">
-      <button>⬅️ Zurück zur Startseite</button>
+      <button className="link">⬅️ Zurück zur Startseite</button>
       </Link>
       <Link to ="/Coinflip">
-      <button> 🪙 Münzwurf-Spiel</button>
+      <button className="link"> 🪙 Münzwurf-Spiel</button>
       </Link>
     </main>
   );
